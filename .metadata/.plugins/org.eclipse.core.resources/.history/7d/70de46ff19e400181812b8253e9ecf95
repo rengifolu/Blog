@@ -1,0 +1,30 @@
+<%@page import="diego.com.calculos.*"%>
+<%@page import="java.util.Date"%>
+<html>
+
+<head>
+   <script type="text/javascript" src="js/index.js"></script>
+   <link href="css/style.css" rel="stylesheet" >
+   <title>JEE</title>
+</head>
+
+<body>
+  <h1>
+      NyxLeven
+  </h1>
+
+      La fecha de hoy es  <%= new Date() %>
+      
+      
+      <br>
+      
+      El resultado de la suma es <%= Calculos.suma(5,3)%>
+      
+      <br>
+      datos del navegador <%= request.getHeader("User-Agent") %>
+      <br>
+      idioma usado <%= request.getLocale() %>
+      
+</body>
+
+</html>

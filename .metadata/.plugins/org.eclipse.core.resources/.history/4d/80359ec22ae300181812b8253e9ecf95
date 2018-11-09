@@ -1,0 +1,11 @@
+<%@page import="java.util.Date"%>
+<html>
+
+<body style="background:blue">>
+  <h1>
+      Buenos Dias 
+  </h1>
+  
+      La fecha de hoy es  <%= new Date() %>
+</body>
+</html>

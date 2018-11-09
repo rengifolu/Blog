@@ -1,0 +1,18 @@
+<%@page import="diego.com.calculos.*"%>
+<%@page import="java.util.Date"%>
+<html>
+
+<body style="background:grey">
+  <h1>
+      Buenos Dias 
+  </h1>
+
+      La fecha de hoy es  <%= new Date() %>
+      
+      
+      <br>
+      
+      El resultado de la suma es <%= Calculos.suma(5,3) %>
+      
+</body>
+</html>

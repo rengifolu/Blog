@@ -1,0 +1,11 @@
+package diego.com.calculos;
+
+public class Calculos {
+	
+    private int resultado;
+    private int suma (int i, int j){
+ 	  resultado = i+j;
+ 	  return resultado;
+   }
+
+}

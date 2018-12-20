@@ -1,9 +1,0 @@
-<%@page import="java.util.Date"%>
-<html>
-
-<body>
-  <h1>
-      Buenos Dias <%= new Date() %>>
-  </h1>
-</body>
-</html>
